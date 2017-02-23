@@ -1,0 +1,276 @@
+/*
+The default style sheet for this site.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'EB Garamond', serif;
+    font-size: 100%;
+    margin: 0 auto;
+    width: auto;
+}
+
+/* --------------Image Hover Effect ----------- */
+
+.hovereffect {
+  width: 100%;
+  height: 80%; 
+  float: right;
+  overflow: hidden;
+  margin-top: 15px;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: -webkit-linear-gradient(45deg, #151515 0%, #7e7e7e 100%);
+  background: linear-gradient(45deg, #151515 0%, #7e7e7e 100%);
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 3em;
+  text-align: left;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  margin-top: 
+  max-width: none;
+  width: calc(100% + 60px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-40px,0,0);
+  transform: translate3d(-40px,0,0);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  font-size: 20px;
+  background-color: transparent;
+  text-align: left;
+}
+
+.hovereffect .overlay:before {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  content: '';
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-20px,0,0);
+  transform: translate3d(-20px,0,0);
+}
+
+.hovereffect a, .hovereffect p {
+  color: #FFF;
+  font-size: 23px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+}
+
+.hovereffect:hover img {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect:hover .overlay:before,
+.hovereffect:hover a, .hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/* ---------------- Image Hover Effect END ---------------*/
+
+.headpart{
+    padding: 8px;
+}
+
+.sitelogo a {
+    color: black;
+    float: left;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-right: 17em;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    float: right
+    list-style-type: none;
+    padding: 30px 1px 20px 30px;
+}
+
+.nav-links:link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-links:visited {
+     color: black;
+     text-decoration: none;
+}
+
+.searchbar{
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.caption1 a{
+    color: lightslategrey;
+    float: right;
+    font-size: 15px;
+    margin-right: 8px;
+    margin-top: 5px;
+    text-decoration: none; 
+}
+
+.main {
+    background-color: #f1f8ff;
+    float: right;
+    margin-bottom: -9999px;
+    min-height: 3000px;
+    padding-bottom: 9999px;
+    width: 80%;
+}
+
+.heading1{
+    color: black;
+    font-size: 40px;
+    margin-left: 40px;
+    padding-top: 620px;
+}
+
+h2{
+    margin-left: 43px;
+    margin-top: 20px;
+}
+
+p{
+    color: darkslategray;
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 20px;
+    width: 60%;
+}
+
+.picture{
+    border-radius: 0;
+    float: right;
+    margin-top: -77em;
+    margin-right: 15px;
+}
+
+#picture2{
+    float: right;
+    margin-right: 15px;
+    margin-top: -37em;   
+}
+
+#button{
+    float: right;
+    margin-top: -30em;
+    margin-right: 15px;
+    padding: 3px 3px 5px 5px
+}
+
+.rspimg{
+    margin-bottom: 30px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+
+.references p{
+    width: 100%;
+    font-size: 16px;
+    line-height: 10px;
+}
+
+.aside-section {
+    background-color: #FAF8FC;
+    float: left;
+    min-height: 3000px;
+    width: 20%;
+}
+
+.relatedheader{
+    font-size: 20px;
+    color: dimgrey;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.aside-nav:link {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 0.1px;
+}
+
+.aside-nav:visited {
+     color: purple;
+     text-decoration: none;
+}
+
+.aside-nav:hover {
+    color: lightblue;
+}
+
+.blue{
+    height: 50px;
+    width: 300px;
+    border-radius:0;
+    background-color: #2C7CC3;   
+}
+
+footer {
+    background-color: #ffffff;
+    color: black;
+    clear: both;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;    
+}
+
+.footert{
+    font-size: 15px;
+    margin-left: 13em;
+}
+
+.footerp{
+    font-size: 15px;
+    padding-left: 4em;
+    width: 90%;
+}
