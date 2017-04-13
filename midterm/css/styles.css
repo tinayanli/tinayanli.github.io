@@ -1,0 +1,663 @@
+body {
+    background-color: aliceblue;
+	font-family: 'Quicksand', sans-serif;
+    width: 100%;
+}
+
+.statbar{
+	margin-left: 452.5px;
+	height: 20.1px;
+}
+
+.searchstatbar{
+	margin-left: 452.5px;
+	height: 20.1px;
+}
+
+.screen{
+    background-color: white;
+    height: 575px;
+    margin: 0 auto;
+	margin-top: -5px;
+/*    margin-left: 20px;*/
+	overflow: auto;
+    width: 375px;
+}
+
+.bigheading{
+    color: #FE9001;
+    font-size: 35px;
+    padding-left: 22px;
+}
+
+.add{
+    float: right;
+    height: 23px;
+    margin-right: 47px;
+    margin-top: -58px;
+}
+
+.add:hover{
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.search{
+    float: right;
+    height: 23px;
+    margin-right: 17px;
+    margin-top: -58px;  
+}
+
+/* ---------------HOME PAGE---------------- */
+
+.LAname{
+	color: #757177;
+	font-size: 24px;
+	font-weight: bold;
+	position: absolute;
+	margin-left: 173px;
+	margin-top: -17.8em;
+}
+
+.losangeles{
+	width: 90%;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+.losangeles:hover{
+	filter: alpha(opacity=50);
+	opacity: 0.7;
+}
+
+.NYname{
+	color: #0EA4A6;
+	font-size: 24px;
+	font-weight: 900;
+	position: absolute;
+	margin-left: 180px;
+	margin-top: -10.3em;
+}
+
+.newyork{
+	width: 90%;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+.newyork:hover{
+	filter: alpha(opacity=50);
+	opacity: 0.7;
+}
+
+.sanfrancisco{
+	width: 90%;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+.sanfrancisco:hover{
+	filter: alpha(opacity=50);
+	opacity: 0.7;
+}
+
+
+
+/*-------------HOME PAGE END-------------*/
+
+/* --------------ALL RESTAURANTS PAGE----------- */
+
+
+.a{
+    color: #72CEAD;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.line{
+    height: 9px;
+    margin-left: 23px;
+}
+
+p{
+    color: #686262;
+	font-size: 15px;
+    line-height: 5px;
+    margin-left: 26px;
+}
+
+.address{
+    color: #9B9B9B;
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+.b{
+    color: #72CEAD;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.lastaddress{
+	color: #9B9B9B;
+    font-size: 12px;
+    margin-left: 28px;
+	padding-bottom: 40px;
+}
+
+.tsurulist{
+	margin-left: 27px;
+	text-decoration: none;
+}
+
+.tsurulist:link {
+    color: #4A4A4A;
+    text-decoration: none;
+    
+}
+
+.tsurulist:visited {
+    color: #4A4A4A;
+    text-decoration: none;
+}
+
+.tsurulist:hover {
+    filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+/* ------NAV BAR------ */
+
+.navbar{
+    height: 70px;
+    width: 375px;
+    background-color: #EFEFF4;
+    margin: 0 auto;
+}
+
+.menuon{
+    height: 64px;
+    margin-left: 40px;
+    margin-top: 4px;
+}
+
+.menuoff{
+    height: 60px;
+    margin-left: 40px;
+    margin-top: 7px;
+}
+
+.menuoff:hover{
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.shufflenav{
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 3px;
+}
+
+.shufflenav:hover{
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.shuffleon{
+    height: 60px;
+    margin-left: 48px;
+    margin-top: 3px;
+}
+
+.searchnav{
+    height: 60px;
+    margin-left: 47px;
+}
+
+.searchnav:hover{
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.searchon{
+    height: 60px;
+    margin-left: 48px;
+    margin-top: 3px;
+}
+
+.tsuruall{
+	float: right;
+	margin-right: 23px;
+	margin-top: 20px;
+	width: 7%;
+}
+
+/* -----------END ALL RESTAURANTS PAGE--------- */
+
+
+/* -----------ADD RESTAURANTS PAGE 1 --------- */
+
+.addrestauranth{
+    color: #4A4A4A;
+    padding-left: 120px;
+    padding-top: 10px;
+	margin-bottom: 5px;
+}
+
+.line1{
+    height: 9.2px;
+    margin-left: 23.5px;
+}
+
+.location{
+    float: right;
+    height: 31px;
+    margin-right: 15px;
+    margin-top: -51px;
+}
+
+.leftarrow{
+    height: 25px;
+    float: left;
+    margin-left: 20px;
+    margin-top: -49px;
+}
+
+.leftarrow:hover{
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+/* -----------END ADD RESTAURANTS PAGE 1 --------- */
+
+
+/* ---------------------SEARCH ------------------- */
+
+.recent{
+    color: #72CEAD;
+    font-size: 22px;
+    margin-left: 26px;
+    margin-top: 95px;
+}
+
+.rp{
+	color: #4A4A4A;
+    font-size: 18px;
+    line-height: 26px;
+	margin-top: 25px;
+	margin-left: 27px;
+}
+
+.tsuru{
+	font-size: 18px;
+    line-height: 26px;
+	margin-top: 25px;
+	margin-left: 27px;
+}
+
+.recenttsuru{
+	font-size: 18px;
+    line-height: 26px;
+	margin-top: 25px;
+	margin-left: 27px;
+	text-decoration: none;
+}
+
+.recenttsuru:link{
+    color: #4A4A4A;
+    text-decoration:none;
+}
+
+.recenttsuru:visited {
+    color: #4A4A4A;
+    text-decoration:none;
+}
+
+.recenttsuru:hover{
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.xbuttontosearch{
+	float: right;
+	margin-right: 23px;
+	margin-top: 20px;
+	width: 7%;
+}
+
+/*-----SEARCH BAR----- */
+
+@import "compass/css3";
+
+/***********************
+ * Essential Structure *
+ ***********************/
+.flexsearch--wrapper {
+	height: auto;
+	width: auto;
+	max-width: 32%;
+	overflow: hidden;
+	background: transparent;
+	margin-left: 17.3em;
+	position: static;
+	margin-top: -35.5em;
+	
+}
+	
+.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+	
+.flexsearch--input-wrapper {
+	padding: 0 66px 0 0; /* Right padding for submit button width */
+	overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 100%;
+}
+
+/***********************
+ * Configurable Styles *
+ ***********************/
+.flexsearch {
+	padding: 0 25px 0 200px;
+	/* Padding for other horizontal elements */
+}
+
+.flexsearch--input {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 30px;
+	padding: 0 46px 0 10px;
+	border-color: #C7C7CD;
+	border-radius: 30px;
+	/* (height/2) + border-width */
+	border-style: solid;
+	border-width: 1px;
+	margin-top: 15px;
+	color: #333;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+	
+.flexsearch--submit {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	border: none;
+	/* margin-top: 0px;  margin-top + border-width */
+	margin-right: 5px;
+	/* border-width */
+	background: transparent;
+	color: #C7C7CD;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	line-height: 65px;
+}
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #ffd27f;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+ 	color: #333; 
+}
+
+.flexsearch--submit:hover {
+  color: #ffd27f;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: #888;  
+}
+
+input:-moz-placeholder {
+  color: #888
+}
+
+/*----------------SEARCH PAGE END -------------*/
+
+
+/*-------------TSURU START-------------------*/
+
+
+.tophalf{
+	background-color: #FBF6F0;
+    height: 300px;
+    margin: 0 auto;
+	margin-top: -5px;
+    width: 375px;
+}
+
+.aboutbottomhalf{
+	background-color: white;
+    height: 295px;
+    margin: 0 auto;
+	margin-top: -20px;
+    width: 375px;
+}
+
+.restmap{
+	width: 65%;
+	margin-left: 65px;
+	margin-top: 30px;
+}
+
+.xbutton{
+	float: right;
+	margin-right: 23px;
+	margin-top: 20px;
+	width: 7%;
+}
+
+.xbutton:hover{
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.tsurunavbar{
+	height: 70px;
+    width: 375px;
+    background-color: #EFEFF4;
+    margin: 0 auto;
+}
+
+.peachstatbar{
+	margin-left: 452.5px;
+	height: 21px;
+}
+
+.cylinders{
+	width: 100%;
+    margin-top: -10px;
+}
+
+.tsuruheading{
+	color: #72CEAD;
+	font-size: 35px;
+	margin-left: 23px;
+}
+
+.restnote{
+	width: 8%;
+	margin-left: 23px;
+}
+
+.restdes{
+	float: right;
+	font-size: 16px;
+	margin-right: 25px;
+	margin-top: -22px;
+}
+
+.restlocation{
+	float: left;
+	width: 7.5%;
+	margin-left: 23px;
+	margin-top: 10px;
+}
+
+.restaddress{
+	margin-top: 25px;
+	margin-left: 63px;
+}
+
+.restclock{
+	float: left;
+	margin-top: 12px;
+	width: 8%;
+	margin-left: -29px;
+}
+
+.resttime{
+	margin-left: 65px;
+	margin-top: 42px;
+}
+
+.time{
+	margin-left: 9em;
+	margin-top: -20px;
+}
+
+.sushides{
+	float: right;
+	font-size: 16px;
+	margin-right: 15px;
+	margin-top: -22px;
+}
+
+/*----------------TSURU PAGE END--------------------*/
+
+/*----------SAN FRANCISCO PAGE START----------------*/
+
+.sfscreen{
+    height: 575px;
+    margin: 0 auto;
+	overflow: hidden;
+    width: 375px;
+}
+
+.sfbar{
+	margin-left: 452px;
+	height: 20.1px;
+}
+
+.sfpic{
+	width: 100%;
+	position: relative; 
+	top: 0; 
+	left: 0;
+}
+
+.sfheading{
+	color: #8B572A;
+	font-size: 35px;
+	font-weight: bold;
+	margin-left: 23px;
+}
+
+.sftophalf{
+    height: 250px;
+    margin: 0 auto;
+	margin-top: -5px;
+    width: 375px;
+}
+
+.citybottomhalf{
+	background-color: white;
+	height: 325px;
+	margin: 0 auto;
+	margin-top: -2px;
+	overflow: auto;
+    width: 375px;
+}
+
+.sfarrow{
+	position: absolute;
+    margin-left: 15px;
+	margin-top: -240px;
+	width: 2%;
+}
+
+.sfarrow:hover{
+	filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.sfshuffle{
+	width: 6.5%;
+	position: absolute;
+    margin-left: 275px;
+    margin-top: -45px;
+}
+
+.sfshuffle:hover{
+	filter: alpha(opacity=50);
+    opacity: 0.8;
+}
+
+/*--------------POP UP SCREEN---------------*/
+
+.shufflestatbar{
+	margin-left: 452px;
+	height: 21px;
+}
+
+.popup{
+	width: 100%;
+}
+
+.yum{
+	position: absolute;
+	width: 11%;
+	margin-left: 7.2em;
+	margin-top: -195px;
+}
+
+.yum:hover{
+	filter: alpha(opacity=50);
+	opacity: 0.8;
+}
+
+.ox{
+	margin-left: 19em;
+	margin-top: -480px;
+	position: absolute;
+	width: 2%;
+}
+
+.ox:hover{
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+/*--------------POP UP SCREEN END---------------*/
+
+/*--------------MISCELLANEOUS PAGES---------------*/
+
+.xsearchbuttonsushi{
+	float: right;
+	margin-right: 23px;
+	margin-top: 20px;
+	width: 7%;
+}
+
+.tsurushuffle{
+	float: right;
+	margin-right: 23px;
+	margin-top: 20px;
+	width: 7%;
+}
