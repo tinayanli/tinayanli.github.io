@@ -4,11 +4,6 @@ body {
 	width: 100%;
 }
 
-h1 {
-	margin-left: 13em;
-	font-size: 40px;
-}
-
 #clock-wrapper {
 	position: relative;
 }
