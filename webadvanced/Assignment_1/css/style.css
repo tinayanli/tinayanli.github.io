@@ -1,0 +1,146 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    width: auto;
+}
+
+/* ----- Fade-in credits: https://codepen.io/arnorymir/pen/yaNVgq -----*/ 
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in{
+  -webkit-animation-delay: 0.15s;
+  -moz-animation-delay: 0.15s;
+  animation-delay: 0.1s;
+}
+
+.bg_img{
+	width: 100%;
+	position: relative;
+	margin-bottom: 150px;
+}
+
+h1{
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 60px;
+	top: 90px;
+	text-align: center;
+	width: 100%;
+}
+
+.img_1{
+	width: 40%;
+	margin-left: 200px;
+}
+
+.img_1:hover{
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+}
+
+#square {
+	width: 300px;
+	height: 300px;
+	background: #faf0e6;
+	margin-bottom: 5px;
+	margin-left: 600px;
+}
+
+.img_2{
+	width: 50%;
+	margin-left: 50px;
+}
+
+.img_2:hover{
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+}
+
+#square_2 {
+	width: 150px;
+	height: 200px;
+	background: aliceblue;
+	margin-bottom: 5px;
+	margin-left: 400px;
+}
+
+.img_3{
+	width: 70%;
+	margin-left: 200px;
+}
+
+.img_3:hover{
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+}
+
+#square_3{
+	width: 300px;
+	height: 300px;
+	background: #eee8dc;
+	margin-bottom: 5px;
+	margin-left: 100px;
+}
+
+.img_4{
+	width: 50%;
+	margin-left: 100px;
+}
+
+.img_4:hover{
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+}
+
+.img_5{
+	width: 60%;
+	margin-left: 300px;
+}
+
+.img_5:hover{
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+}
+
+
+/*--------- Image Pages --------*/
+
+.img{
+	width: 69%;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.description{
+	text-align: center;
+	color: skyblue;
+	font-size: 15px;
+}
+
