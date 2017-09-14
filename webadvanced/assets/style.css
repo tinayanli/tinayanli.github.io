@@ -45,7 +45,7 @@ body {
 }
 
 h1{
-	color: #FFFFFF;
+	color: white;
 	position: absolute;
 	display: block;
 	font-size: 150px;
@@ -76,7 +76,7 @@ h1{
 
 #line{
 	width: 4px;
-    height: 200px;
+    height: 230px;
     background: #c8cfd6;
 	margin: 0 auto;
 }
@@ -110,12 +110,28 @@ h1{
 	text-align: right;
 	margin-right: 390px;
 	margin-top: -50;
-	
 }
 
 .icon_desc{
+	float: right;
+	text-align: right;
+	margin-right: -165px;
+	margin-top: 50px;
+}
+
+.icon_title_2{
 	float:right;
 	text-align: right;
-	margin-right: -170px;
+	margin-right: 360px;
+	margin-top: -50;
+	
+}
+
+.icon_desc_2{
+	float: right;
+	text-align: right;
+	text-align: center;
+	width: 20%;
+	margin-right: -190px;
 	margin-top: 50px;
 }
