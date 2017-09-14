@@ -1,0 +1,87 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 100%;
+    margin: 0 auto;
+    width: auto;
+}
+
+.applelogo{
+	display: block;
+    margin: auto;
+	margin-top: 255px;
+    width: 8%;
+}
+
+.applelogo:hover{
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+}
+
+
+/* ----- Fade-in credits: https://codepen.io/arnorymir/pen/yaNVgq -----*/ 
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in{
+  -webkit-animation-delay: 0.10s;
+  -moz-animation-delay: 0.10s;
+  animation-delay: 0.1s;
+}
+
+/* --------------------- STEVE PAGE ------------------------*/
+
+.steve{
+	width: 101%;
+}
+
+p{
+	color: grey;
+	font-size: 38px;
+	position: absolute;
+	display: block;
+	top: 170px;
+	left: 30px;
+}
+
+.button {
+    background-color: darkgrey; /* Grey*/
+    border: none;
+	border-radius: 8px;
+    color: white;
+	left: 260px;
+    padding: 15px 32px;
+	position: absolute;
+    text-align: center;
+    text-decoration: none;
+	top: 330px;
+    font-size: 16px;
+	margin: auto;
+}
+
+.button:hover{
+	filter: alpha(opacity=50);
+    opacity: 0.7;
+}
