@@ -1,0 +1,16 @@
+body{
+	font-family: 'Reem Kufi', sans-serif;
+}
+
+p{
+	color: skyblue;
+	font-size: 40px;
+	margin-right: 30px;
+	margin-top: 75px;
+	text-align: right;
+}
+
+img{
+	position: absolute;
+	width: 65%;
+}
