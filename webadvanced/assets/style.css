@@ -135,3 +135,19 @@ h1{
 	margin-right: -190px;
 	margin-top: 50px;
 }
+
+.icon_title_3{
+	float:right;
+	text-align: right;
+	margin-right: 336px;
+	margin-top: -50;
+}
+
+.icon_desc_3{
+	float: right;
+	text-align: right;
+	text-align: center;
+	width: 22%;
+	margin-right: -220px;
+	margin-top: 50px;
+}
