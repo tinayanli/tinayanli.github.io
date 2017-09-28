@@ -1,0 +1,61 @@
+body{
+	font-family: 'Reem Kufi', sans-serif;
+}
+
+
+h1{
+	color: skyblue;
+	font-size: 35px;
+	padding-top: 250px;
+	margin-left: 500px;
+	position: absolute;
+}
+
+h2{
+	color: skyblue;
+	font-size: 35px;
+	margin-left: 475px;
+	margin-top: 340px;
+	position: absolute;
+}
+
+
+.main{
+	position: absolute;
+	margin-left: -5px;
+	margin-top: -30px;
+}
+
+.two{
+	position: absolute;
+	margin-left: 20px;
+	width: 40%;
+}
+
+.three{
+	position: absolute;
+	margin-top: 340px;
+	margin-left: 780px;
+	width: 35%;
+}
+
+.four{
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 350px;
+	width: 40%;
+}
+
+.five{
+	position: absolute;
+	margin-top: 65px;
+	margin-left: 650px;
+	width: 43%;
+}
+
+.six{
+	position: absolute;
+	margin-top: 365px;
+	margin-left: 70px;
+	width: 35%;
+}

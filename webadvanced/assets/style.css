@@ -1,4 +1,4 @@
-{
+`{
     margin: 0;
     padding: 0;
 }
@@ -139,7 +139,7 @@ h1{
 .icon_title_3{
 	float:right;
 	text-align: right;
-	margin-right: 336px;
+	margin-right: 340px;
 	margin-top: -50;
 }
 
@@ -149,5 +149,21 @@ h1{
 	text-align: center;
 	width: 22%;
 	margin-right: -220px;
+	margin-top: 50px;
+}
+
+.icon_title_4{
+	float:right;
+	text-align: right;
+	margin-right: 330px;
+	margin-top: -50;
+}
+
+.icon_desc_4{
+	float: right;
+	text-align: right;
+	text-align: center;
+	width: 22%;
+	margin-right: -226px;
 	margin-top: 50px;
 }
