@@ -1,0 +1,79 @@
+<! DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Live Sketches</title>
+	<link rel="stylesheet" href="style.css" media="all">
+	<!-- <script type="text/javascript" src="js/script.js"></script> -->
+</head>
+
+<body>
+
+	<div id="container">
+		
+		
+		<img class="game_grass" src="img/game_grass.png" alt="game Sky">
+		
+		<img class="cloudone" src="img/white_cloud.png" alt="white cloud"> <!-- animate floating cloud -->
+		<img class="cloudtwo" src="img/white_cloud.png" alt="white cloud"> <!-- animate floating cloud -->
+		
+		
+		<div class="grassone"></div>
+		<div class="grass"></div>
+		
+		<div class="firsttree"></div>
+		<div class="oneleaf"></div>
+		
+		<div class="secondtree"></div>
+		<div class="secondleaf"></div>
+		
+		<div class="apple"></div>
+		<div class="twoapple"></div>
+		<div class="threeapple"></div>
+		<div class="fourapple"></div>
+		<div class="fiveapple"></div>
+		
+		<img class="basket" src="img/basketdemo.png" alt="Basket">
+		
+		
+        <div id="player">
+		<img src="img/player.png" alt="cute monster">
+		</div>
+
+	</div>
+	
+	
+	
+	<!--------------------------- JAVASCRIPT ------------------------------->
+
+	<script type="text/javascript">
+		
+		var player = document.getElementById('player');
+		var container = document.getElementById('container');
+
+		var playerLeft = 10;
+
+		function move(e) {
+
+			if (e.keyCode == 39) { //39 stands for right arrow
+				playerLeft += 6;
+				player.style.left = playerLeft + 'px';
+			}
+
+			if (e.keyCode == 37) { // 37 stands for left arrow
+				playerLeft -= 6;
+				player.style.left = playerLeft + 'px';
+			}
+
+
+		}
+
+		document.onkeydown = move;
+		
+	</script>
+
+
+
+</body>
+
+</html>
