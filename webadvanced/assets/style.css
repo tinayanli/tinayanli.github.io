@@ -105,65 +105,111 @@ h1{
     opacity: 0.7;
 }
 
-.icon_title{
-	float:right;
+/* ----- Title and Descriptions -----*/
+
+.title_one{
+	float: right;
 	text-align: right;
-	margin-right: 390px;
+	margin-right: 380px;
 	margin-top: -50;
 }
 
-.icon_desc{
+.desc_one{
 	float: right;
-	text-align: right;
-	margin-right: -165px;
+    margin-right: -160px;
 	margin-top: 50px;
 }
 
-.icon_title_2{
-	float:right;
-	text-align: right;
-	margin-right: 360px;
-	margin-top: -50;
-	
-}
-
-.icon_desc_2{
+.title_two{
 	float: right;
-	text-align: right;
-	text-align: center;
-	width: 20%;
-	margin-right: -190px;
-	margin-top: 50px;
-}
-
-.icon_title_3{
-	float:right;
 	text-align: right;
 	margin-right: 340px;
 	margin-top: -50;
 }
 
-.icon_desc_3{
+.desc_two{
 	float: right;
 	text-align: right;
 	text-align: center;
-	width: 22%;
-	margin-right: -220px;
+	width: 20%;
+	margin-right: -205px;
 	margin-top: 50px;
 }
 
-.icon_title_4{
-	float:right;
+.title_three{
+	float: right;
 	text-align: right;
-	margin-right: 330px;
+	margin-right: 310px;
 	margin-top: -50;
 }
 
-.icon_desc_4{
+.desc_three{
 	float: right;
 	text-align: right;
 	text-align: center;
 	width: 22%;
-	margin-right: -226px;
+	margin-right: -245px;
+	margin-top: 50px;
+}
+
+.title_four{
+	float: right;
+	text-align: right;
+	margin-right: 320px;
+	margin-top: -50;
+}
+
+.desc_four{
+	float: right;
+	text-align: right;
+	text-align: center;
+	width: 22%;
+	margin-right: -230px;
+	margin-top: 50px;
+}
+
+.title_five{
+	float: right;
+	text-align: right;
+	margin-right: 295px;
+	margin-top: -50;
+}
+
+.desc_five{
+	float: right;
+	text-align: right;
+	text-align: center;
+	width: 22%;
+	margin-right: -250px;
+	margin-top: 50px;
+}
+
+.title_six{
+	float: right;
+	text-align: right;
+	margin-right: 350px;
+	margin-top: -50;
+}
+
+.desc_six{
+	float: right;
+	text-align: center;
+	width: 22%;
+	margin-right: -200px;
+	margin-top: 50px;
+}
+
+.title_seven{
+    float: right;
+	text-align: right;
+	margin-right: 360px;
+	margin-top: -50;
+}
+
+.desc_seven{
+	float: right;
+	text-align: center;
+	width: 22%;
+	margin-right: -180px;
 	margin-top: 50px;
 }

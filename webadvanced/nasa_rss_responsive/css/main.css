@@ -1,0 +1,45 @@
+body {
+	background-color: white;
+	font-family: 'Noto Sans', sans-serif;
+	color: #0B3D91;
+	text-align: center;
+}
+
+h1 {
+	color: #FC3D21;
+}
+
+p {
+	padding: 10px;
+	font-size: 15x;
+	line-height: 40px;
+	color: black;
+}
+
+
+@media (max-width: 750px) {
+	/*once it reaches 601px, background will turn pink */
+	body {
+		width: 100%;
+		/* once it reaches 601px, then the width of the body adjusts to 200px responsive. Or if you do 100%, then it resizes relative to the screen! */
+		background-color: black;
+	}
+
+	h1 {
+		color: #0B3D91;
+	}
+	
+	h2{
+		color: #FC3D21;;
+	}
+	
+	h3{
+		color: #FC3D21;;
+	}
+
+	p {
+		color: white;
+	}
+
+
+}

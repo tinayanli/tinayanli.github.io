@@ -1,0 +1,67 @@
+<! DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Live Sketches</title>
+	<link rel="stylesheet" href="style.css" media="all">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/js.cookie.js"></script>
+</head>
+
+<body>
+
+
+	<div class="startscreen">
+		<img class="bigorange" src="img/orange.png" alt="orange">
+		<img class="wedge" src="img/wedge.png" alt="orange wedge">
+		<img class="wedge2" src="img/wedge.png" alt="orange wedge">
+		<img class="bigorange2" src="img/orange.png" alt="orange">
+		<h1>Catch as Many Oranges as You Can!</h1>
+		<h2>Click to Start</h2>
+	</div>
+
+	<div id="container">
+
+		<img class="game_grass" src="img/game_grass.png" alt="game Sky">
+
+		<!--- CLOUDS --->
+		<img class="cloudone" src="img/white_cloud.png" alt="white cloud">
+		<img class="cloudtwo" src="img/white_cloud.png" alt="white cloud">
+
+		<div class="grassone"></div>
+		<div class="grass"></div>
+
+		<!-- the zone where oranges will fall. The css .orange will be appended to this div -->
+		<div id="orangeZone"></div>
+
+
+		<img class="basket" src="img/basketdemo.png" alt="Basket">
+		<div id="score"></div>
+
+		<!--- TREES --->
+		<img class="twopurpletree" src="img/onetree.png" alt="purple tree">
+		<img class="purpletree" src="img/onetree.png" alt="purple tree">
+		<img class="threepurpletree" src="img/onetree.png" alt="purple tree">
+
+
+		<img id="player" src="img/player.png" alt="cute monster">
+
+		<!--- ORANGES ON TREE --->
+		<div class="apple"></div>
+		<div class="twoapple"></div>
+		<div class="threeapple"></div>
+		<div class="fourapple"></div>
+		<div class="fiveapple"></div>
+
+	</div>
+
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<!--have to put JS file in the end of html because it has to go through the html page first to find the contents. Then it can load the script file -->
+
+
+</body>
+
+</html>

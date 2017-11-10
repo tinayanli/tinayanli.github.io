@@ -1,0 +1,225 @@
+.startscreen{
+	position: absolute;
+	background-color: aliceblue;
+	height: 500px;
+	width: 800px;
+	outline: 1px solid #d3998f;
+	left: 0px;
+	right: 0px;
+	margin: 0 auto;
+	overflow: hidden;
+	z-index: 10; /* How far the plane will be on top of the underlying div. Think of it as a 3D space */
+}
+
+h1{
+	padding: 80px 100px 10px 100px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 60px;
+	color: coral;
+	text-align: center;
+}
+
+h2{
+	color: #d0b0b0;
+	font-family: 'Indie Flower', cursive;
+	font-size: 40px;
+	margin-top: 70px;
+	text-align: center;
+}
+
+#container{
+	background-color: aliceblue;
+	height: 500px;
+	width: 800px;
+	outline: 1px solid #d3998f;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 100px;
+	overflow: hidden;
+}
+
+#player{
+	position: absolute;
+}
+
+.cloudone{
+	width: 10%;
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 90px;
+}
+
+.cloudtwo{
+	width: 15%;
+	position: absolute;
+	margin-left: 620px;
+	margin-top: 80px;
+}
+
+.game_grass{
+	width: 100%;
+	position: absolute;
+}
+
+.grassone{
+	height: 30px;
+	width: 800px;
+	position: absolute;
+	background-color: #FFE4E1;
+	margin-top: 370px;
+}
+
+.grass{
+	height: 120px;
+	width: 800px;
+	position: absolute;
+	background-color: #EED5D2;
+	margin-top: 400px;
+}
+
+.apple{
+	background: #FFA07A;
+	border-radius: 40px;
+	height: 40px;
+	margin-left: 20px;
+	margin-top: -20px;
+	position: absolute;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	width: 40px;
+}
+
+.twoapple{
+	background: #FFA07A;
+	border-radius: 40px;
+	height: 40px;
+	margin-left: 500px;
+	margin-top: -20px;
+	position: absolute;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	width: 40px;
+}
+
+.threeapple{
+	background: #FFA07A;
+	border-radius: 40px;
+	height: 40px;
+	margin-left: 140px;
+	margin-top: 30px;
+	position: absolute;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	width: 40px;
+}
+
+.fourapple{
+	background: #FFA07A;
+	border-radius: 30px;
+	height: 30px;
+	margin-left: 42em;
+	margin-top: 20px;
+	position: absolute;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	width: 30px;
+}
+
+.fiveapple{
+	background: #FFA07A;
+	border-radius: 30px;
+	height: 30px;
+	margin-left: 20em;
+	margin-top: 10px;
+	position: absolute;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	width: 30px;
+}
+
+.basket{
+	margin-left: 38em;
+	position: absolute;
+	margin-top: 290px;
+	width: 15%;
+}
+
+.orange{
+	background: #FFA07A;
+	top: 0px;
+    left: 0px;
+	border-radius: 30px;
+    position: absolute;
+    z-index: 200;
+    width: 40px;
+    height: 40px;	
+}
+
+.purpletree{
+	margin-left: -100px;
+	margin-top: -60px;
+	position: absolute;
+	width: 50%;
+}
+
+.twopurpletree{
+	margin-left: 230px;
+	margin-top: -140px;
+	position: absolute;
+	width: 59%;
+}
+
+.threepurpletree{
+	margin-left: 37em;
+	margin-top: -105px;
+	position: absolute;
+	width: 55%;
+}
+
+.bigorange{
+	margin-left: 50px;
+	position: absolute;
+	opacity: 0.3;
+    -webkit-transform: rotate(70deg); /* Chrome, Safari, Opera */
+    transform: rotate(25deg);
+	width: 20%;
+}
+
+.bigorange2{
+	margin-left: 32em;
+	margin-top: 20em;
+	position: absolute;
+	opacity: 0.3;
+    -webkit-transform: rotate(70deg); /* Chrome, Safari, Opera */
+    transform: rotate(320deg);
+	width: 30%;
+}
+
+.wedge{
+	margin-top: 22em;
+	position: absolute;
+	margin-left: 40px;
+	opacity: 0.3;
+	-webkit-transform: rotate(70deg); /* Chrome, Safari, Opera */
+    transform: rotate(25deg);
+	width: 20%;
+}
+
+.wedge2{
+	margin-top: 2em;
+	position: absolute;
+	margin-left: 37em;;
+	opacity: 0.3;
+	-webkit-transform: rotate(70deg); /* Chrome, Safari, Opera */
+    transform: rotate(220deg);
+	width: 25%;
+}
+
+#score{
+	color: white;
+	margin-left: 650px;
+	position: absolute;
+	margin-top: 305px;
+	font-size: 50px;
+	font-family: 'Indie Flower', cursive;
+}
