@@ -68,16 +68,29 @@ html {
 }
 
 .travelguide_text{
+	color: #3f3f3f;
 	margin-top: 5%;
-	margin-bottom: 5%;
-}
-
-h3 {
+	margin-bottom: 3%;
 	letter-spacing: 5px;
 	text-transform: uppercase;
 	font: 20px "Lato", sans-serif;
-	color: #111;
+	font-weight: 700;
+	text-align: center;
 }
+
+.special-text{
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.firstp{
+	font-size: 16px;
+	margin-top: 2%;
+	width: 100%;
+	line-height: 30px;
+}
+
 /* Turn off parallax scrolling for tablets and phones */
 
 @media only screen and (max-device-width: 1024px) {
@@ -118,6 +131,29 @@ h3 {
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+footer{
+	background-color: #282E34; 
+	padding: 60px 60px;
+}
+
+.websites{
+	display: inline;
+	text-decoration: none;
+	color: white;
+	padding: 3%;
+}
+
+/*unvisited link*/
+a:link {
+    color: mediumpurple;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: skyblue;
+	text-decoration: none;
+}
 
 /*----- RSS -----*/
 
@@ -125,10 +161,40 @@ h1 {
 	color: #FC3D21;
 }
 
-p {
-	padding: 10px;
-	font-size: 15x;
-	line-height: 30px;
-	color: black;
+h2{
+	font: 20px "Hind", sans-serif;
+	font-weight: 300;
 }
 
+h3{
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 15px "Hind", sans-serif;
+	color: #111;
+}
+
+p{
+	padding: 10px;
+	font: 15px "Hind", sans-serif;
+	line-height: 25px;
+	color: black;
+	text-align: justify;
+	margin: 0 auto;
+	width: 70%;
+}
+
+
+.finland-item{
+	
+		display: inline-block;
+		width: 45%;
+	
+}
+
+/*---------------- weather API ----------------- */
+
+#temp{
+	background-color: aliceblue; 
+	margin-top: 5%;
+	padding: 80px 80px;
+}
