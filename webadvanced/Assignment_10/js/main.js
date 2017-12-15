@@ -40,23 +40,23 @@ $(document).ready(function () {
 		$('#temp').html("Current temperature in " + city + " is "+ data.query.results.channel.item.condition.temp + "°F ");
 		
 		if (data.query.results.channel.item.condition.temp > 0 && data.query.results.channel.item.condition.temp < 30) {	
-			$("#rss-section").css("background-color", "#ebfaff");
+			$("#rss-section").css("background-color", "#ebfaff"); // 1 to 29 degrees
 			$(".bgimg-3").css("background-image", "url(img/stars.jpg");
 		} else if (data.query.results.channel.item.condition.temp >= 30 && data.query.results.channel.item.condition.temp < 32) {
-			$("#rss-section").css("background-color", "#e4e4e4");
+			$("#rss-section").css("background-color", "#e4e4e4"); // 30 to 31 degrees
 			$(".bgimg-3").css("background-image", "url(img/weather-1.jpg");
 		} else if (data.query.results.channel.item.condition.temp >= 32 && data.query.results.channel.item.condition.temp < 34) {
-			$("#rss-section").css("background-color", "#fff7f8");
+			$("#rss-section").css("background-color", "#fff7f8"); // 32 to 33 degrees
 			$(".bgimg-3").css("background-image", "url(img/autumn.jpg");
 		} else if (data.query.results.channel.item.condition.temp >= 34 && data.query.results.channel.item.condition.temp < 36) {
-			$("#rss-section").css("background-color", "#eee8f3");
-			$(".bgimg-3").css("background-image", "url(img/weather-pretty.jpg"); // changes the background of Weather image 
+			$("#rss-section").css("background-color", "#eee8f3"); // 34 to 35 degrees
+			$(".bgimg-3").css("background-image", "url(img/weather-pretty.jpg");
 		} else if (data.query.results.channel.item.condition.temp >= 36 && data.query.results.channel.item.condition.temp < 38) {
-			$("#rss-section").css("background-color", "#f6f0e8");
-			$(".bgimg-3").css("background-image", "url(img/img/warm.jpg.jpg")
+			$("#rss-section").css("background-color", "#f6f0e8"); // 36 to 37 degrees
+			$(".bgimg-3").css("background-image", "url(img/warm.jpg");
 		} else if (data.query.results.channel.item.condition.temp >= 38 && data.query.results.channel.item.condition.temp < 40) {
-			$("#rss-section").css("background-color", "#ffe9ec");
-			$(".bgimg-3").css("background-image", "url(img/warmwarm.jpg")
+			$("#rss-section").css("background-color", "#ffe9ec"); // 38 to 39 degrees
+			$(".bgimg-3").css("background-image", "url(img/warmwarm.jpg");
 		}
 
 	});
