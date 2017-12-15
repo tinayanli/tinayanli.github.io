@@ -29,7 +29,7 @@ html {
 }
 
 .bgimg-3 {
-	background-image: url("img_parallax3.jpg");
+	background-image: url("../img/mountains.jpg");
 	min-height: 400px;
 }
 
@@ -65,17 +65,6 @@ html {
 	padding: 18px;
 	font-size: 25px;
 	letter-spacing: 10px;
-}
-
-.travelguide_text{
-	color: #3f3f3f;
-	margin-top: 5%;
-	margin-bottom: 3%;
-	letter-spacing: 5px;
-	text-transform: uppercase;
-	font: 20px "Lato", sans-serif;
-	font-weight: 700;
-	text-align: center;
 }
 
 .special-text{
@@ -157,6 +146,22 @@ a:visited {
 
 /*----- RSS -----*/
 
+#rss-section{
+	padding-bottom: 4%;
+	padding-top: 0.5%;
+}
+
+.travelguide_text{
+	color: #3f3f3f;
+	padding-top: 5%;
+	margin-bottom: 3%;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
 h1 {
 	color: #FC3D21;
 }
@@ -193,8 +198,22 @@ p{
 
 /*---------------- weather API ----------------- */
 
+.caption3{
+	color: #FFF;
+	font-size: 25px;
+	left: 0;
+	letter-spacing: 2px;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	top: 50%;
+	width: 100%;
+}
+
+/*
 #temp{
 	background-color: aliceblue; 
 	margin-top: 5%;
 	padding: 80px 80px;
 }
+*/
